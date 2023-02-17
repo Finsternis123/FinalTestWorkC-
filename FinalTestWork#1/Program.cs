@@ -13,3 +13,15 @@ void SortArray (string[] Array, string[] Array1)
         }
     }
 }
+
+void PrintArray (string[] array)
+{
+    for (int i = 0; i < array.Length; i++)
+    {
+        Console.Write($"{array[i]} ");
+    }
+    Console.WriteLine();
+}
+
+SortArray(Array, Array1);
+PrintArray(Array1);
